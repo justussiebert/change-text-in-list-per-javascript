@@ -1,0 +1,45 @@
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create text and change position</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header><h1>Hallooo</h1></header>
+    <main>
+      <section class="mainContent">
+        <h2>Liste die gefüllt werden will</h2>
+        <ul class="meineListe"></ul>
+        <hr />
+        <p>
+          <input
+            type="text"
+            name=""
+            id="input-new-text"
+            placeholder="Neues Li-Element"
+            value=""
+          />
+        </p>
+        <p><button class="btnAdd">Element zur Liste hinzufügen</button></p>
+        <hr />
+        <p>
+          Element versetzen, und zwar das Element an Position
+          <select id="element-to-change-position">
+            <option value="x">Position wählen</option></select
+          >, vor das Element an Position
+          <select id="element-inserted-before-position">
+            <option value="x">Position wählen</option>
+          </select>
+        </p>
+        <p>
+          <button class="" id="btnChangePosition">Element verschieben</button>
+        </p>
+        <hr />
+        <p><button class="btnLeeren">Liste leeren</button></p>
+      </section>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
